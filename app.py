@@ -105,7 +105,49 @@ def index():
                                 <p>         
                                  ・2車複、ワイドのオッズがともに1.0<br>
                                  ・レディース戦で2車複のオッズが1.4以下かつワイドオッズが1.0                      
-                                </p>                          
+                                </p> 
+
+            <br><br><br><br>
+            <p>※ネットの競輪投票サービスのキャンペーン利用すれば、無料登録だけでお金がもらえてかなりお得です！</p>
+
+            <table border="1" cellpadding="8" cellspacing="0" style="margin: 0 auto; border-collapse: collapse; text-align: center;">
+                <thead style="background-color: #f2f2f2;">
+                    <tr>
+                        <th>サービス名</th>
+                        <th>キャンペーン特典</th>
+                        <th>記事詳細</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>ウィンチケット</td>
+                        <td>最大8,100円</td>
+                        <td><a href="https://x.gd/eY7Ve" target="_blank">記事を見る</a></td>
+                    </tr>
+                    <tr>
+                        <td>オッズパーク</td>
+                        <td>最大13,500円</td> 	
+                        <td><a href="https://x.gd/vTyBf" target="_blank">記事を見る</a></td>
+                    </tr>
+                    <tr>
+                        <td>DMM競輪</td>
+                        <td>最大3,000円</td>
+                        <td><a href="https://x.gd/Sy8iD" target="_blank">記事を見る</a></td>
+                    </tr>
+                    <tr>
+                        <td>TIPSTAR</td>
+                        <td>最大51,000円</td>
+                        <td><a href="https://x.gd/ETnlp" target="_blank">記事を見る</a></td>
+                    </tr>
+                    <tr>
+                        <td>チャリロト</td>
+                        <td>最大4,000円</td>
+                        <td><a href="https://x.gd/TQQ5L" target="_blank">記事を見る</a></td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <p style="margin-top: 10px;">公営競技投票サービスのキャンペーン</p>                         
                                   
     </body>
     </html>
@@ -140,6 +182,47 @@ def show_results():
         {% endfor %}
         </ul>
         <a href="/">🔄 もう一度読み込み</a>
+        <br><br><br><br>
+        <p>※ネットの競輪投票サービスのキャンペーン利用すれば、無料登録だけでお金がもらえてかなりお得です！</p>
+
+        <table border="1" cellpadding="8" cellspacing="0">
+            <thead>
+                <tr>
+                    <th>サービス名</th>
+                    <th>キャンペーン特典</th>
+                    <th>記事詳細</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>ウィンチケット</td>
+                    <td>最大8,100円</td>
+                    <td><a href="https://x.gd/eY7Ve" target="_blank">記事を見る</a></td>
+                </tr>
+                <tr>
+                    <td>オッズパーク</td>
+                    <td>最大13,500円</td> 	
+                    <td><a href="https://x.gd/vTyBf" target="_blank">記事を見る</a></td>
+                </tr>
+                <tr>
+                    <td>DMM競輪</td>
+                    <td>最大3,000円</td>
+                    <td><a href="https://x.gd/Sy8iD" target="_blank">記事を見る</a></td>
+                </tr>
+                <tr>
+                    <td>TIPSTAR</td>
+                    <td>最大51,000円</td>
+                    <td><a href="https://x.gd/ETnlp" target="_blank">記事を見る</a></td>
+                </tr>
+                <tr>
+                    <td>チャリロト</td>
+                    <td>最大4,000円</td>
+                    <td><a href="https://x.gd/TQQ5L" target="_blank">記事を見る</a></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <p style="margin-top: 10px;">公営競技投票サービスのキャンペーン</p>
     </body>
     </html>
     """
