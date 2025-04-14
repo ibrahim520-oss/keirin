@@ -4,6 +4,7 @@ import requests
 from bs4 import BeautifulSoup
 import datetime
 import time
+import re
 
 app = Flask(__name__)
 cache = {}
@@ -33,6 +34,10 @@ def extract_race_info(soup):
         tx_red_span = None
 
     race_name = race_name_tag.get_text(strip=True) if race_name_tag else ""
+
+    # タイトル整形処理（「【オッズ】」と「｜競輪（KEIRIN）ならオッズパーク競輪」を削除）
+    race_name = re.sub(r'^【オッズ】', '', race_name)
+    race_name = re.sub(r'｜競輪（KEIRIN）ならオッズパーク競輪$', '', race_name).strip()
     title_contains_keyword = 'Ｌ級ガ' in race_name
     valid_values = ['1.0', '1.1', '1.2', '1.3', '1.4']
 
