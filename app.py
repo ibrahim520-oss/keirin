@@ -85,10 +85,10 @@ def index():
         <meta charset="UTF-8">
         <title>読み込み中</title>
         <script>
-            // 1秒後に自動で /results に移動
+            // 3秒後に自動で /results に移動
             setTimeout(() => {
                 window.location.href = "/results";
-            }, 100);
+            }, 3000);
         </script>
         <style>
             body { font-family: sans-serif; text-align: center; margin-top: 100px; }
